@@ -26,7 +26,7 @@ Del menú de creación de proyecto vamos a tener que elegir:
 
 Una vez que elegimos estas cosas, creamos el proyecto y, si es la primera vez que creamos uno, esperamos a que se descargue todo el SDK para el microcontrolador que vamos a usar.
 
-#### Estructura de proyecto
+## Estructura de proyecto
 
 Un proyecto creado tiene esta estructura:
 
@@ -46,13 +46,13 @@ En esta estructura, son particularmente importantes los archivos _CMakeLists.txt
 
 > ⚙️ El _CMakeLists.txt_ es un archivo importante para poder configurar dependencias entre bibliotecas y nuestra aplicación. Para más información leer [este](./cmakelists.md) documento.
 
-#### Dependencias
+## Dependencias
 
-##### Windows
+### Windows
 
 Para Windows no hay dependencias pero si hay que posteriormente instalar el driver de USB para la Raspberry Pi Pico. Una vez que la tengamos conectada, podemos descargar [Zadig](https://zadig.akeo.ie/) y actualizar el driver al apropiado.
 
-##### Linux
+### Linux
 
 Las dependencias se pueden instalar por consola con:
 
@@ -60,7 +60,7 @@ Las dependencias se pueden instalar por consola con:
 sudo apt install python3 git tar build-essential
 ```
 
-##### macOS
+### macOS
 
 Instalamos xcode con:
 
