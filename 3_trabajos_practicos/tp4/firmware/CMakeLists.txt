@@ -59,6 +59,7 @@ target_link_libraries(firmware
         freertos
         lcd
         bmp280
+        hardware_pwm
         pico_stdlib)
 
 # Add the standard include files to the build
